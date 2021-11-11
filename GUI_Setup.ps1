@@ -136,8 +136,11 @@ $InstallBasicUtils.Add_Click({
     $Conesole.text= "Installing Tailscale"
     winget Install tailscale.tailscale
 
-    $Conesole.text="Install RDP Client"
+    $Conesole.text="Installing RDP Client"
     winget install -id Microsoft.RemoteDesktopClient
+
+    $Conesole.text="Installing Github Desktop Client"
+    winget install -id Github.GithubDesktop
 
     $Conesole.text= "All Programs Installed"
 })
