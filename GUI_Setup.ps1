@@ -88,7 +88,7 @@ $WindowsVer.text                 = "Windows Version"
 $WindowsVer.width                = 99
 $WindowsVer.height               = 46
 $WindowsVer.Anchor               = 'top,right,bottom,left'
-$WindowsVer.location             = New-Object System.Drawing.Point(314,195)
+$WindowsVer.location             = New-Object System.Drawing.Point(314,206)
 $WindowsVer.Font                 = New-Object System.Drawing.Font('Microsoft Sans Serif',8)
 
 $IPAddress                       = New-Object system.Windows.Forms.Button
@@ -96,7 +96,7 @@ $IPAddress.text                  = "IP Address"
 $IPAddress.width                 = 99
 $IPAddress.height                = 46
 $IPAddress.Anchor                = 'top,right,bottom,left'
-$IPAddress.location              = New-Object System.Drawing.Point(314,248)
+$IPAddress.location              = New-Object System.Drawing.Point(314,261)
 $IPAddress.Font                  = New-Object System.Drawing.Font('Microsoft Sans Serif',8)
 
 $Conesole                        = New-Object system.Windows.Forms.TextBox
